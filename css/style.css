@@ -1,18 +1,56 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../fonts/Roboto-Regular.ttf") format("truetype");
+}
+
 *{
     margin: 0;
     padding: 0;
+    font-family: "Roboto", serif;
 }
 header{
     width: 99.85vw;
-    border: 1px solid;
     height: 147px;
-    box-shadow: 2px 20px 58px -53px black;
+    box-shadow: 0 20px 58px -53px black;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
 }
 img.logo{
-    box-shadow: 2px 20px 58px -53px black;
+    box-shadow: 0 20px 58px -53px black;
     border-radius: 100%;
     width: 200px;
-    display: block;
-    position: absolute;
-    margin-left: auto;
+}
+
+.center {
+    /* margin-right: auto; */
+    /* margin-left: auto; */
+    height: 100px;
+}
+
+.left>p:nth-child(1) {
+    font-size: 26pt;
+    color: #84B9F9;
+}
+
+.right>img {
+    float: left;
+}
+
+.pn {
+    font-size: 26pt;
+    white-space: nowrap;
+}
+
+.accident-text {
+    text-align: center;
+}
+
+article {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
