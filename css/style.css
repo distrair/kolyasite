@@ -37,8 +37,9 @@ header>.left > p:nth-child(1) {
     color: #84B9F9;
 }
 
-.right>img {
+.main>.right>img {
     float: left;
+    width: 34vw;
 }
 
 .pn {
@@ -133,4 +134,19 @@ footer>.center-2>p {
 
 footer>.center-2 {
     padding: 25px;
+}
+
+footer>.right>p:nth-child(1) {
+    font-size: 30pt;
+    margin-bottom: 5px;
+}
+
+footer>.right {
+    padding: 25px;
+}
+
+footer>.right>p {
+    color: white;
+    white-space: nowrap;
+    margin-bottom: 10px;
 }
